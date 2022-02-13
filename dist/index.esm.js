@@ -653,5 +653,5 @@ function useViewer(config) {
     return { error: streamError || peerConnectionError, localMedia: localMedia, peer: peer };
 }
 
-export { useMaster, useViewer };
+export { useLocalMedia, useMaster, useViewer };
 //# sourceMappingURL=index.esm.js.map

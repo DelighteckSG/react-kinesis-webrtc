@@ -677,6 +677,7 @@ function useViewer(config) {
     return { error: streamError || peerConnectionError, localMedia: localMedia, peer: peer };
 }
 
+exports.useLocalMedia = useLocalMedia;
 exports.useMaster = useMaster;
 exports.useViewer = useViewer;
 //# sourceMappingURL=index.js.map
